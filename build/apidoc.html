@@ -1,0 +1,661 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/karma-runner/karma-coverage#readme"
+
+    >karma-coverage (v1.1.1)</a>
+</h1>
+<h4>A Karma plugin. Generate code coverage.</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.karma-coverage">module karma-coverage</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.karma-coverage.in_memory_report">
+            function <span class="apidocSignatureSpan">karma-coverage.</span>in_memory_report
+            <span class="apidocSignatureSpan">(opt)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.karma-coverage.source_cache_store">
+            function <span class="apidocSignatureSpan">karma-coverage.</span>source_cache_store
+            <span class="apidocSignatureSpan">(opts)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">karma-coverage.</span>coverage_map</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">karma-coverage.</span>in_memory_report.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">karma-coverage.</span>source_cache</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">karma-coverage.</span>source_cache_store.prototype</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.karma-coverage.coverage_map">module karma-coverage.coverage_map</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.karma-coverage.coverage_map.add">
+            function <span class="apidocSignatureSpan">karma-coverage.coverage_map.</span>add
+            <span class="apidocSignatureSpan">(coverageObj)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.karma-coverage.coverage_map.get">
+            function <span class="apidocSignatureSpan">karma-coverage.coverage_map.</span>get
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.karma-coverage.coverage_map.reset">
+            function <span class="apidocSignatureSpan">karma-coverage.coverage_map.</span>reset
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.karma-coverage.in_memory_report">module karma-coverage.in_memory_report</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.karma-coverage.in_memory_report.in_memory_report">
+            function <span class="apidocSignatureSpan">karma-coverage.</span>in_memory_report
+            <span class="apidocSignatureSpan">(opt)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.karma-coverage.in_memory_report.super_">
+            function <span class="apidocSignatureSpan">karma-coverage.in_memory_report.</span>super_
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">karma-coverage.in_memory_report.</span>TYPE</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.karma-coverage.in_memory_report.prototype">module karma-coverage.in_memory_report.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.karma-coverage.in_memory_report.prototype.writeReport">
+            function <span class="apidocSignatureSpan">karma-coverage.in_memory_report.prototype.</span>writeReport
+            <span class="apidocSignatureSpan">(collector, sync)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.karma-coverage.source_cache">module karma-coverage.source_cache</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.karma-coverage.source_cache.get">
+            function <span class="apidocSignatureSpan">karma-coverage.source_cache.</span>get
+            <span class="apidocSignatureSpan">(basePath)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.karma-coverage.source_cache_store">module karma-coverage.source_cache_store</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.karma-coverage.source_cache_store.source_cache_store">
+            function <span class="apidocSignatureSpan">karma-coverage.</span>source_cache_store
+            <span class="apidocSignatureSpan">(opts)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.karma-coverage.source_cache_store.super_">
+            function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.</span>super_
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">karma-coverage.source_cache_store.</span>TYPE</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.karma-coverage.source_cache_store.prototype">module karma-coverage.source_cache_store.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.karma-coverage.source_cache_store.prototype.get">
+            function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.prototype.</span>get
+            <span class="apidocSignatureSpan">(key)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.karma-coverage.source_cache_store.prototype.hasKey">
+            function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.prototype.</span>hasKey
+            <span class="apidocSignatureSpan">(key)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.karma-coverage.source_cache_store.prototype.keys">
+            function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.prototype.</span>keys
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.karma-coverage.source_cache_store.prototype.set">
+            function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.prototype.</span>set
+            <span class="apidocSignatureSpan">(key, contents)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.karma-coverage" id="apidoc.module.karma-coverage">module karma-coverage</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.karma-coverage.in_memory_report" id="apidoc.element.karma-coverage.in_memory_report">
+        function <span class="apidocSignatureSpan">karma-coverage.</span>in_memory_report
+        <span class="apidocSignatureSpan">(opt)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function InMemoryReport(opt) {
+  this.opt = opt
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.karma-coverage.source_cache_store" id="apidoc.element.karma-coverage.source_cache_store">
+        function <span class="apidocSignatureSpan">karma-coverage.</span>source_cache_store
+        <span class="apidocSignatureSpan">(opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">source_cache_store = function (opts) {
+  Store.call(this, opts)
+  opts = opts || {}
+  this.sourceCache = opts.sourceCache
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.karma-coverage.coverage_map" id="apidoc.module.karma-coverage.coverage_map">module karma-coverage.coverage_map</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.karma-coverage.coverage_map.add" id="apidoc.element.karma-coverage.coverage_map.add">
+        function <span class="apidocSignatureSpan">karma-coverage.coverage_map.</span>add
+        <span class="apidocSignatureSpan">(coverageObj)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function add(coverageObj) {
+  coverageMap[coverageObj.path] = coverageObj
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  coverageObjRegex.lastIndex = 0
+
+  var coverageObjMatch = coverageObjRegex.exec(instrumentedCode)
+
+  if (coverageObjMatch !== null) {
+    var coverageObj = JSON.parse(coverageObjMatch[0])
+
+    coverageMap.<span class="apidocCodeKeywordSpan">add</span>(coverageObj)
+  }
+}
+
+// RequireJS expects JavaScript files to end with `.js`
+if (useJSExtensionForCoffeeScript &#x26;&#x26; instrumenterLiteral === &#x27;ibrik&#x27;) {
+  file.path = file.path.replace(/\.coffee$/, &#x27;.js&#x27;)
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.karma-coverage.coverage_map.get" id="apidoc.element.karma-coverage.coverage_map.get">
+        function <span class="apidocSignatureSpan">karma-coverage.coverage_map.</span>get
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function get() {
+  return coverageMap
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  if (coverageReporter) {
+instrumenterOverrides = coverageReporter.instrumenter
+instrumenters = extend({istanbul: istanbul}, coverageReporter.instrumenters)
+includeAllSources = coverageReporter.includeAllSources === true
+useJSExtensionForCoffeeScript = coverageReporter.useJSExtensionForCoffeeScript === true
+  }
+
+  var sourceCache = globalSourceCache.<span class="apidocCodeKeywordSpan">get</span>(basePath)
+
+  var instrumentersOptions = _.reduce(instrumenters, function getInstumenterOptions (memo, instrument, name) {
+memo[name] = {}
+
+if (coverageReporter &#x26;&#x26; coverageReporter.instrumenterOptions) {
+  memo[name] = coverageReporter.instrumenterOptions[name]
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.karma-coverage.coverage_map.reset" id="apidoc.element.karma-coverage.coverage_map.reset">
+        function <span class="apidocSignatureSpan">karma-coverage.coverage_map.</span>reset
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function reset() {
+  coverageMap = {}
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.karma-coverage.in_memory_report" id="apidoc.module.karma-coverage.in_memory_report">module karma-coverage.in_memory_report</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.karma-coverage.in_memory_report.in_memory_report" id="apidoc.element.karma-coverage.in_memory_report.in_memory_report">
+        function <span class="apidocSignatureSpan">karma-coverage.</span>in_memory_report
+        <span class="apidocSignatureSpan">(opt)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function InMemoryReport(opt) {
+  this.opt = opt
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.karma-coverage.in_memory_report.super_" id="apidoc.element.karma-coverage.in_memory_report.super_">
+        function <span class="apidocSignatureSpan">karma-coverage.in_memory_report.</span>super_
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Report() {
+    EventEmitter.call(this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.karma-coverage.in_memory_report.prototype" id="apidoc.module.karma-coverage.in_memory_report.prototype">module karma-coverage.in_memory_report.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.karma-coverage.in_memory_report.prototype.writeReport" id="apidoc.element.karma-coverage.in_memory_report.prototype.writeReport">
+        function <span class="apidocSignatureSpan">karma-coverage.in_memory_report.prototype.</span>writeReport
+        <span class="apidocSignatureSpan">(collector, sync)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">writeReport = function (collector, sync) {
+  if (!this.opt.emitter || !this.opt.emitter.emit) {
+    console.error(&#x27;Could not raise &#x22;coverage_complete&#x22; event, missing emitter because it was not supplied during initialization
+of the reporter&#x27;)
+  } else {
+    this.opt.emitter.emit(&#x27;coverage_complete&#x27;, this.opt.browser, collector.getFinalCoverage())
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  try {
+    if (typeof config._onWriteReport === &#x27;function&#x27;) {
+      var newCollector = config._onWriteReport(collector)
+      if (typeof newCollector === &#x27;object&#x27;) {
+        collector = newCollector
+      }
+    }
+    reporter.<span class="apidocCodeKeywordSpan">writeReport</span>(collector, true)
+  } catch (e) {
+    log.error(e)
+  }
+
+  --pendingFileWritings
+}
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.karma-coverage.source_cache" id="apidoc.module.karma-coverage.source_cache">module karma-coverage.source_cache</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.karma-coverage.source_cache.get" id="apidoc.element.karma-coverage.source_cache.get">
+        function <span class="apidocSignatureSpan">karma-coverage.source_cache.</span>get
+        <span class="apidocSignatureSpan">(basePath)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function get(basePath) {
+  if (!cache[basePath]) {
+    cache[basePath] = {}
+  }
+
+  return cache[basePath]
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  if (coverageReporter) {
+instrumenterOverrides = coverageReporter.instrumenter
+instrumenters = extend({istanbul: istanbul}, coverageReporter.instrumenters)
+includeAllSources = coverageReporter.includeAllSources === true
+useJSExtensionForCoffeeScript = coverageReporter.useJSExtensionForCoffeeScript === true
+  }
+
+  var sourceCache = globalSourceCache.<span class="apidocCodeKeywordSpan">get</span>(basePath)
+
+  var instrumentersOptions = _.reduce(instrumenters, function getInstumenterOptions (memo, instrument, name) {
+memo[name] = {}
+
+if (coverageReporter &#x26;&#x26; coverageReporter.instrumenterOptions) {
+  memo[name] = coverageReporter.instrumenterOptions[name]
+}
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.karma-coverage.source_cache_store" id="apidoc.module.karma-coverage.source_cache_store">module karma-coverage.source_cache_store</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.karma-coverage.source_cache_store.source_cache_store" id="apidoc.element.karma-coverage.source_cache_store.source_cache_store">
+        function <span class="apidocSignatureSpan">karma-coverage.</span>source_cache_store
+        <span class="apidocSignatureSpan">(opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">source_cache_store = function (opts) {
+  Store.call(this, opts)
+  opts = opts || {}
+  this.sourceCache = opts.sourceCache
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.karma-coverage.source_cache_store.super_" id="apidoc.element.karma-coverage.source_cache_store.super_">
+        function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.</span>super_
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Store() {}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.karma-coverage.source_cache_store.prototype" id="apidoc.module.karma-coverage.source_cache_store.prototype">module karma-coverage.source_cache_store.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.karma-coverage.source_cache_store.prototype.get" id="apidoc.element.karma-coverage.source_cache_store.prototype.get">
+        function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.prototype.</span>get
+        <span class="apidocSignatureSpan">(key)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">get = function (key) {
+  return this.sourceCache[key]
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  if (coverageReporter) {
+instrumenterOverrides = coverageReporter.instrumenter
+instrumenters = extend({istanbul: istanbul}, coverageReporter.instrumenters)
+includeAllSources = coverageReporter.includeAllSources === true
+useJSExtensionForCoffeeScript = coverageReporter.useJSExtensionForCoffeeScript === true
+  }
+
+  var sourceCache = globalSourceCache.<span class="apidocCodeKeywordSpan">get</span>(basePath)
+
+  var instrumentersOptions = _.reduce(instrumenters, function getInstumenterOptions (memo, instrument, name) {
+memo[name] = {}
+
+if (coverageReporter &#x26;&#x26; coverageReporter.instrumenterOptions) {
+  memo[name] = coverageReporter.instrumenterOptions[name]
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.karma-coverage.source_cache_store.prototype.hasKey" id="apidoc.element.karma-coverage.source_cache_store.prototype.hasKey">
+        function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.prototype.</span>hasKey
+        <span class="apidocSignatureSpan">(key)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">hasKey = function (key) {
+  return this.sourceCache.hasOwnProperty(key)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.karma-coverage.source_cache_store.prototype.keys" id="apidoc.element.karma-coverage.source_cache_store.prototype.keys">
+        function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.prototype.</span>keys
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">keys = function () {
+  throw new Error(&#x27;Not implemented&#x27;)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    done(content)
+  }
+}
+
+// check instrumenter override requests
+function checkInstrumenters () {
+  return _.reduce(instrumenterOverrides, function (acc, literal, pattern) {
+    if (!_.includes(_.<span class="apidocCodeKeywordSpan">keys</span>(instrumenters), String(literal))) {
+      log.error(&#x27;Unknown instrumenter: %s&#x27;, literal)
+      return false
+    }
+    return acc
+  }, true)
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.karma-coverage.source_cache_store.prototype.set" id="apidoc.element.karma-coverage.source_cache_store.prototype.set">
+        function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.prototype.</span>set
+        <span class="apidocSignatureSpan">(key, contents)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">set = function (key, contents) {
+  throw new Error(&#x27;Not applicable&#x27;)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+## Examples
+
+### Basic
+
+```javascript
+// karma.conf.js
+module.exports = function(config) {
+  config.<span class="apidocCodeKeywordSpan">set</span>({
+files: [
+  &#x27;src/**/*.js&#x27;,
+  &#x27;test/**/*.js&#x27;
+],
+
+// coverage reporter generates the coverage
+reporters: [&#x27;progress&#x27;, &#x27;coverage&#x27;],
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
