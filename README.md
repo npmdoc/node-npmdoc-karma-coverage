@@ -1,9 +1,14 @@
-# api documentation for  [karma-coverage (v1.1.1)](https://github.com/karma-runner/karma-coverage#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-karma-coverage.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-karma-coverage) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-karma-coverage.svg)](https://travis-ci.org/npmdoc/node-npmdoc-karma-coverage)
+# npmdoc-karma-coverage
+
+#### api documentation for  [karma-coverage (v1.1.1)](https://github.com/karma-runner/karma-coverage#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-karma-coverage.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-karma-coverage) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-karma-coverage.svg)](https://travis-ci.org/npmdoc/node-npmdoc-karma-coverage)
+
 #### A Karma plugin. Generate code coverage.
 
-[![NPM](https://nodei.co/npm/karma-coverage.png?downloads=true)](https://www.npmjs.com/package/karma-coverage)
+[![NPM](https://nodei.co/npm/karma-coverage.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/karma-coverage)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-karma-coverage/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-karma-coverage%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-karma-coverage/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-karma-coverage/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-karma-coverage/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-karma-coverage/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-karma-coverage/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-karma-coverage/build/screenCapture.npmPackageListing.svg)
 
@@ -17,200 +22,152 @@
 
 {
     "author": {
-        "name": "SATO taichi",
-        "email": "ryushi@gmail.com"
+        "name": "SATO taichi"
     },
     "bugs": {
         "url": "https://github.com/karma-runner/karma-coverage/issues"
     },
     "contributors": [
         {
-            "name": "dignifiedquire",
-            "email": "dignifiedquire@gmail.com"
+            "name": "dignifiedquire"
         },
         {
-            "name": "Friedel Ziegelmayer",
-            "email": "dignifiedquire@gmail.com"
+            "name": "Friedel Ziegelmayer"
         },
         {
-            "name": "Aymeric Beaumet",
-            "email": "aymeric@beaumet.me"
+            "name": "Aymeric Beaumet"
         },
         {
-            "name": "Tim Kang",
-            "email": "timkang@ucla.edu"
+            "name": "Tim Kang"
         },
         {
-            "name": "Nick Malaguti",
-            "email": "nmalaguti@palantir.com"
+            "name": "Nick Malaguti"
         },
         {
-            "name": "Maksim Ryzhikov",
-            "email": "rv.maksim@gmail.com"
+            "name": "Maksim Ryzhikov"
         },
         {
-            "name": "Mark Ethan Trostler",
-            "email": "mark@zzo.com"
+            "name": "Mark Ethan Trostler"
         },
         {
-            "name": "nicojs",
-            "email": "jansennico@gmail.com"
+            "name": "nicojs"
         },
         {
-            "name": "Allen Bierbaum",
-            "email": "abierbaum@gmail.com"
+            "name": "Allen Bierbaum"
         },
         {
-            "name": "Douglas Duteil",
-            "email": "douglasduteil@gmail.com"
+            "name": "Douglas Duteil"
         },
         {
-            "name": "Matt Winchester",
-            "email": "m_winche@yahoo.com"
+            "name": "Matt Winchester"
         },
         {
-            "name": "Tanguy Krotoff",
-            "email": "tkrotoff@gmail.com"
+            "name": "Tanguy Krotoff"
         },
         {
-            "name": "Wei Kin Huang",
-            "email": "weikin.huang04@gmail.com"
+            "name": "Wei Kin Huang"
         },
         {
-            "name": "Kyle Welsby",
-            "email": "kyle@mekyle.com"
+            "name": "Kyle Welsby"
         },
         {
-            "name": "Maciej Rzepiński",
-            "email": "maciej.rzepinski@gmail.com"
+            "name": "Maciej Rzepiński"
         },
         {
-            "name": "Joseph Connolly",
-            "email": "joec@avinetworks.com"
+            "name": "Joseph Connolly"
         },
         {
-            "name": "Marceli.no",
-            "email": "me@marceli.no"
+            "name": "Marceli.no"
         },
         {
-            "name": "James Talmage",
-            "email": "james@talmage.io"
+            "name": "James Talmage"
         },
         {
-            "name": "Mark Trostler",
-            "email": "mark@zzo.com"
+            "name": "Mark Trostler"
         },
         {
-            "name": "Matt Lewis",
-            "email": "matthew.lewis@socialsignin.co.uk"
+            "name": "Matt Lewis"
         },
         {
-            "name": "Chris Gladd",
-            "email": "chris.m.gladd@gmail.com"
+            "name": "Chris Gladd"
         },
         {
-            "name": "Michael Stramel",
-            "email": "m.stramel89@gmail.com"
+            "name": "Michael Stramel"
         },
         {
-            "name": "Greg Varsanyi",
-            "email": "gvarsanyi@gmail.com"
+            "name": "Greg Varsanyi"
         },
         {
-            "name": "Nick Matantsev",
-            "email": "nick.matantsev@gmail.com"
+            "name": "Nick Matantsev"
         },
         {
-            "name": "Petar Manev",
-            "email": "petar.manev2010@gmail.com"
+            "name": "Petar Manev"
         },
         {
-            "name": "Robin Böhm",
-            "email": "robinboehm@googlemail.com"
+            "name": "Robin Böhm"
         },
         {
-            "name": "Ron Derksen",
-            "email": "ron.derksen@informaat.nl"
+            "name": "Ron Derksen"
         },
         {
-            "name": "Ruben Bridgewater",
-            "email": "ruben.bridgewater@fintura.de"
+            "name": "Ruben Bridgewater"
         },
         {
-            "name": "Sahat Yalkabov",
-            "email": "sakhat@gmail.com"
+            "name": "Sahat Yalkabov"
         },
         {
-            "name": "piecyk",
-            "email": "piecyk@gmail.com"
+            "name": "piecyk"
         },
         {
-            "name": "Tanjo, Hiroyuki",
-            "email": "expheno@gmail.com"
+            "name": "Tanjo, Hiroyuki"
         },
         {
-            "name": "Taylor Hakes",
-            "email": "taylor@taylorhakes.com"
+            "name": "Taylor Hakes"
         },
         {
-            "name": "Dmitry Petrov",
-            "email": "dpetroff@gmail.com"
+            "name": "Dmitry Petrov"
         },
         {
-            "name": "Timo Tijhof",
-            "email": "krinklemail@gmail.com"
+            "name": "Timo Tijhof"
         },
         {
-            "name": "Tom Kirkpatrick",
-            "email": "tom@systemseed.com"
+            "name": "Tom Kirkpatrick"
         },
         {
-            "name": "Tyler Waters",
-            "email": "tyler.waters@gmail.com"
+            "name": "Tyler Waters"
         },
         {
-            "name": "Vincent Lemeunier",
-            "email": "vincent.lemeunier+git@gmail.com"
+            "name": "Vincent Lemeunier"
         },
         {
-            "name": "Dan Watling",
-            "email": "dan@synaptik.com"
+            "name": "Dan Watling"
         },
         {
-            "name": "terussell85",
-            "email": "terussell85@gmail.com"
+            "name": "terussell85"
         },
         {
-            "name": "Yusuke Suzuki",
-            "email": "utatane.tea@gmail.com"
+            "name": "Yusuke Suzuki"
         },
         {
-            "name": "aprooks",
-            "email": "alexander.prooks@gmail.com"
+            "name": "aprooks"
         },
         {
-            "name": "carlos",
-            "email": "cafesanu@gmail.com"
+            "name": "carlos"
         },
         {
-            "name": "Clayton Watts",
-            "email": "cletusw@gmail.com"
+            "name": "Clayton Watts"
         },
         {
-            "name": "fbergr",
-            "email": "fbergr@gmail.com"
+            "name": "fbergr"
         },
         {
-            "name": "Joshua Appelman",
-            "email": "jappelman@xebia.com"
+            "name": "Joshua Appelman"
         },
         {
-            "name": "Julie",
-            "email": "ju.ralph@gmail.com"
+            "name": "Julie"
         },
         {
-            "name": "Lloyd Smith II",
-            "email": "lloyd@trove.com"
+            "name": "Lloyd Smith II"
         }
     ],
     "dependencies": {
@@ -267,21 +224,17 @@
     "main": "lib/index.js",
     "maintainers": [
         {
-            "name": "vojtajina",
-            "email": "vojta.jina+npm@gmail.com"
+            "name": "vojtajina"
         },
         {
-            "name": "zzo",
-            "email": "mark@zzo.com"
+            "name": "zzo"
         },
         {
-            "name": "dignifiedquire",
-            "email": "dignifiedquire@gmail.com"
+            "name": "dignifiedquire"
         }
     ],
     "name": "karma-coverage",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/karma-runner/karma-coverage.git"
@@ -291,374 +244,6 @@
     },
     "version": "1.1.1"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module karma-coverage](#apidoc.module.karma-coverage)
-1.  [function <span class="apidocSignatureSpan">karma-coverage.</span>in_memory_report (opt)](#apidoc.element.karma-coverage.in_memory_report)
-1.  [function <span class="apidocSignatureSpan">karma-coverage.</span>source_cache_store (opts)](#apidoc.element.karma-coverage.source_cache_store)
-1.  object <span class="apidocSignatureSpan">karma-coverage.</span>coverage_map
-1.  object <span class="apidocSignatureSpan">karma-coverage.</span>in_memory_report.prototype
-1.  object <span class="apidocSignatureSpan">karma-coverage.</span>source_cache
-1.  object <span class="apidocSignatureSpan">karma-coverage.</span>source_cache_store.prototype
-
-#### [module karma-coverage.coverage_map](#apidoc.module.karma-coverage.coverage_map)
-1.  [function <span class="apidocSignatureSpan">karma-coverage.coverage_map.</span>add (coverageObj)](#apidoc.element.karma-coverage.coverage_map.add)
-1.  [function <span class="apidocSignatureSpan">karma-coverage.coverage_map.</span>get ()](#apidoc.element.karma-coverage.coverage_map.get)
-1.  [function <span class="apidocSignatureSpan">karma-coverage.coverage_map.</span>reset ()](#apidoc.element.karma-coverage.coverage_map.reset)
-
-#### [module karma-coverage.in_memory_report](#apidoc.module.karma-coverage.in_memory_report)
-1.  [function <span class="apidocSignatureSpan">karma-coverage.</span>in_memory_report (opt)](#apidoc.element.karma-coverage.in_memory_report.in_memory_report)
-1.  [function <span class="apidocSignatureSpan">karma-coverage.in_memory_report.</span>super_ ()](#apidoc.element.karma-coverage.in_memory_report.super_)
-1.  string <span class="apidocSignatureSpan">karma-coverage.in_memory_report.</span>TYPE
-
-#### [module karma-coverage.in_memory_report.prototype](#apidoc.module.karma-coverage.in_memory_report.prototype)
-1.  [function <span class="apidocSignatureSpan">karma-coverage.in_memory_report.prototype.</span>writeReport (collector, sync)](#apidoc.element.karma-coverage.in_memory_report.prototype.writeReport)
-
-#### [module karma-coverage.source_cache](#apidoc.module.karma-coverage.source_cache)
-1.  [function <span class="apidocSignatureSpan">karma-coverage.source_cache.</span>get (basePath)](#apidoc.element.karma-coverage.source_cache.get)
-
-#### [module karma-coverage.source_cache_store](#apidoc.module.karma-coverage.source_cache_store)
-1.  [function <span class="apidocSignatureSpan">karma-coverage.</span>source_cache_store (opts)](#apidoc.element.karma-coverage.source_cache_store.source_cache_store)
-1.  [function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.</span>super_ ()](#apidoc.element.karma-coverage.source_cache_store.super_)
-1.  string <span class="apidocSignatureSpan">karma-coverage.source_cache_store.</span>TYPE
-
-#### [module karma-coverage.source_cache_store.prototype](#apidoc.module.karma-coverage.source_cache_store.prototype)
-1.  [function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.prototype.</span>get (key)](#apidoc.element.karma-coverage.source_cache_store.prototype.get)
-1.  [function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.prototype.</span>hasKey (key)](#apidoc.element.karma-coverage.source_cache_store.prototype.hasKey)
-1.  [function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.prototype.</span>keys ()](#apidoc.element.karma-coverage.source_cache_store.prototype.keys)
-1.  [function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.prototype.</span>set (key, contents)](#apidoc.element.karma-coverage.source_cache_store.prototype.set)
-
-
-
-# <a name="apidoc.module.karma-coverage"></a>[module karma-coverage](#apidoc.module.karma-coverage)
-
-#### <a name="apidoc.element.karma-coverage.in_memory_report"></a>[function <span class="apidocSignatureSpan">karma-coverage.</span>in_memory_report (opt)](#apidoc.element.karma-coverage.in_memory_report)
-- description and source-code
-```javascript
-function InMemoryReport(opt) {
-  this.opt = opt
-}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.karma-coverage.source_cache_store"></a>[function <span class="apidocSignatureSpan">karma-coverage.</span>source_cache_store (opts)](#apidoc.element.karma-coverage.source_cache_store)
-- description and source-code
-```javascript
-source_cache_store = function (opts) {
-  Store.call(this, opts)
-  opts = opts || {}
-  this.sourceCache = opts.sourceCache
-}
-```
-- example usage
-```shell
-n/a
-```
-
-
-
-# <a name="apidoc.module.karma-coverage.coverage_map"></a>[module karma-coverage.coverage_map](#apidoc.module.karma-coverage.coverage_map)
-
-#### <a name="apidoc.element.karma-coverage.coverage_map.add"></a>[function <span class="apidocSignatureSpan">karma-coverage.coverage_map.</span>add (coverageObj)](#apidoc.element.karma-coverage.coverage_map.add)
-- description and source-code
-```javascript
-function add(coverageObj) {
-  coverageMap[coverageObj.path] = coverageObj
-}
-```
-- example usage
-```shell
-...
-  coverageObjRegex.lastIndex = 0
-
-  var coverageObjMatch = coverageObjRegex.exec(instrumentedCode)
-
-  if (coverageObjMatch !== null) {
-    var coverageObj = JSON.parse(coverageObjMatch[0])
-
-    coverageMap.add(coverageObj)
-  }
-}
-
-// RequireJS expects JavaScript files to end with '.js'
-if (useJSExtensionForCoffeeScript && instrumenterLiteral === 'ibrik') {
-  file.path = file.path.replace(/\.coffee$/, '.js')
-}
-...
-```
-
-#### <a name="apidoc.element.karma-coverage.coverage_map.get"></a>[function <span class="apidocSignatureSpan">karma-coverage.coverage_map.</span>get ()](#apidoc.element.karma-coverage.coverage_map.get)
-- description and source-code
-```javascript
-function get() {
-  return coverageMap
-}
-```
-- example usage
-```shell
-...
-  if (coverageReporter) {
-instrumenterOverrides = coverageReporter.instrumenter
-instrumenters = extend({istanbul: istanbul}, coverageReporter.instrumenters)
-includeAllSources = coverageReporter.includeAllSources === true
-useJSExtensionForCoffeeScript = coverageReporter.useJSExtensionForCoffeeScript === true
-  }
-
-  var sourceCache = globalSourceCache.get(basePath)
-
-  var instrumentersOptions = _.reduce(instrumenters, function getInstumenterOptions (memo, instrument, name) {
-memo[name] = {}
-
-if (coverageReporter && coverageReporter.instrumenterOptions) {
-  memo[name] = coverageReporter.instrumenterOptions[name]
-}
-...
-```
-
-#### <a name="apidoc.element.karma-coverage.coverage_map.reset"></a>[function <span class="apidocSignatureSpan">karma-coverage.coverage_map.</span>reset ()](#apidoc.element.karma-coverage.coverage_map.reset)
-- description and source-code
-```javascript
-function reset() {
-  coverageMap = {}
-}
-```
-- example usage
-```shell
-n/a
-```
-
-
-
-# <a name="apidoc.module.karma-coverage.in_memory_report"></a>[module karma-coverage.in_memory_report](#apidoc.module.karma-coverage.in_memory_report)
-
-#### <a name="apidoc.element.karma-coverage.in_memory_report.in_memory_report"></a>[function <span class="apidocSignatureSpan">karma-coverage.</span>in_memory_report (opt)](#apidoc.element.karma-coverage.in_memory_report.in_memory_report)
-- description and source-code
-```javascript
-function InMemoryReport(opt) {
-  this.opt = opt
-}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.karma-coverage.in_memory_report.super_"></a>[function <span class="apidocSignatureSpan">karma-coverage.in_memory_report.</span>super_ ()](#apidoc.element.karma-coverage.in_memory_report.super_)
-- description and source-code
-```javascript
-function Report() {
-    EventEmitter.call(this);
-}
-```
-- example usage
-```shell
-n/a
-```
-
-
-
-# <a name="apidoc.module.karma-coverage.in_memory_report.prototype"></a>[module karma-coverage.in_memory_report.prototype](#apidoc.module.karma-coverage.in_memory_report.prototype)
-
-#### <a name="apidoc.element.karma-coverage.in_memory_report.prototype.writeReport"></a>[function <span class="apidocSignatureSpan">karma-coverage.in_memory_report.prototype.</span>writeReport (collector, sync)](#apidoc.element.karma-coverage.in_memory_report.prototype.writeReport)
-- description and source-code
-```javascript
-writeReport = function (collector, sync) {
-  if (!this.opt.emitter || !this.opt.emitter.emit) {
-    console.error('Could not raise "coverage_complete" event, missing emitter because it was not supplied during initialization
-of the reporter')
-  } else {
-    this.opt.emitter.emit('coverage_complete', this.opt.browser, collector.getFinalCoverage())
-  }
-}
-```
-- example usage
-```shell
-...
-  try {
-    if (typeof config._onWriteReport === 'function') {
-      var newCollector = config._onWriteReport(collector)
-      if (typeof newCollector === 'object') {
-        collector = newCollector
-      }
-    }
-    reporter.writeReport(collector, true)
-  } catch (e) {
-    log.error(e)
-  }
-
-  --pendingFileWritings
-}
-...
-```
-
-
-
-# <a name="apidoc.module.karma-coverage.source_cache"></a>[module karma-coverage.source_cache](#apidoc.module.karma-coverage.source_cache)
-
-#### <a name="apidoc.element.karma-coverage.source_cache.get"></a>[function <span class="apidocSignatureSpan">karma-coverage.source_cache.</span>get (basePath)](#apidoc.element.karma-coverage.source_cache.get)
-- description and source-code
-```javascript
-function get(basePath) {
-  if (!cache[basePath]) {
-    cache[basePath] = {}
-  }
-
-  return cache[basePath]
-}
-```
-- example usage
-```shell
-...
-  if (coverageReporter) {
-instrumenterOverrides = coverageReporter.instrumenter
-instrumenters = extend({istanbul: istanbul}, coverageReporter.instrumenters)
-includeAllSources = coverageReporter.includeAllSources === true
-useJSExtensionForCoffeeScript = coverageReporter.useJSExtensionForCoffeeScript === true
-  }
-
-  var sourceCache = globalSourceCache.get(basePath)
-
-  var instrumentersOptions = _.reduce(instrumenters, function getInstumenterOptions (memo, instrument, name) {
-memo[name] = {}
-
-if (coverageReporter && coverageReporter.instrumenterOptions) {
-  memo[name] = coverageReporter.instrumenterOptions[name]
-}
-...
-```
-
-
-
-# <a name="apidoc.module.karma-coverage.source_cache_store"></a>[module karma-coverage.source_cache_store](#apidoc.module.karma-coverage.source_cache_store)
-
-#### <a name="apidoc.element.karma-coverage.source_cache_store.source_cache_store"></a>[function <span class="apidocSignatureSpan">karma-coverage.</span>source_cache_store (opts)](#apidoc.element.karma-coverage.source_cache_store.source_cache_store)
-- description and source-code
-```javascript
-source_cache_store = function (opts) {
-  Store.call(this, opts)
-  opts = opts || {}
-  this.sourceCache = opts.sourceCache
-}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.karma-coverage.source_cache_store.super_"></a>[function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.</span>super_ ()](#apidoc.element.karma-coverage.source_cache_store.super_)
-- description and source-code
-```javascript
-function Store() {}
-```
-- example usage
-```shell
-n/a
-```
-
-
-
-# <a name="apidoc.module.karma-coverage.source_cache_store.prototype"></a>[module karma-coverage.source_cache_store.prototype](#apidoc.module.karma-coverage.source_cache_store.prototype)
-
-#### <a name="apidoc.element.karma-coverage.source_cache_store.prototype.get"></a>[function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.prototype.</span>get (key)](#apidoc.element.karma-coverage.source_cache_store.prototype.get)
-- description and source-code
-```javascript
-get = function (key) {
-  return this.sourceCache[key]
-}
-```
-- example usage
-```shell
-...
-  if (coverageReporter) {
-instrumenterOverrides = coverageReporter.instrumenter
-instrumenters = extend({istanbul: istanbul}, coverageReporter.instrumenters)
-includeAllSources = coverageReporter.includeAllSources === true
-useJSExtensionForCoffeeScript = coverageReporter.useJSExtensionForCoffeeScript === true
-  }
-
-  var sourceCache = globalSourceCache.get(basePath)
-
-  var instrumentersOptions = _.reduce(instrumenters, function getInstumenterOptions (memo, instrument, name) {
-memo[name] = {}
-
-if (coverageReporter && coverageReporter.instrumenterOptions) {
-  memo[name] = coverageReporter.instrumenterOptions[name]
-}
-...
-```
-
-#### <a name="apidoc.element.karma-coverage.source_cache_store.prototype.hasKey"></a>[function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.prototype.</span>hasKey (key)](#apidoc.element.karma-coverage.source_cache_store.prototype.hasKey)
-- description and source-code
-```javascript
-hasKey = function (key) {
-  return this.sourceCache.hasOwnProperty(key)
-}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.karma-coverage.source_cache_store.prototype.keys"></a>[function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.prototype.</span>keys ()](#apidoc.element.karma-coverage.source_cache_store.prototype.keys)
-- description and source-code
-```javascript
-keys = function () {
-  throw new Error('Not implemented')
-}
-```
-- example usage
-```shell
-...
-    done(content)
-  }
-}
-
-// check instrumenter override requests
-function checkInstrumenters () {
-  return _.reduce(instrumenterOverrides, function (acc, literal, pattern) {
-    if (!_.includes(_.keys(instrumenters), String(literal))) {
-      log.error('Unknown instrumenter: %s', literal)
-      return false
-    }
-    return acc
-  }, true)
-}
-...
-```
-
-#### <a name="apidoc.element.karma-coverage.source_cache_store.prototype.set"></a>[function <span class="apidocSignatureSpan">karma-coverage.source_cache_store.prototype.</span>set (key, contents)](#apidoc.element.karma-coverage.source_cache_store.prototype.set)
-- description and source-code
-```javascript
-set = function (key, contents) {
-  throw new Error('Not applicable')
-}
-```
-- example usage
-```shell
-...
-## Examples
-
-### Basic
-
-'''javascript
-// karma.conf.js
-module.exports = function(config) {
-  config.set({
-files: [
-  'src/**/*.js',
-  'test/**/*.js'
-],
-
-// coverage reporter generates the coverage
-reporters: ['progress', 'coverage'],
-...
 ```
 
 
