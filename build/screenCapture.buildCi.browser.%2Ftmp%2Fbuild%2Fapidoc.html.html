@@ -74,12 +74,6 @@
 
         <li>
 
-            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">karma-coverage.</span>coverage_map</span>
-
-        </li>
-
-        <li>
-
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">karma-coverage.</span>in_memory_report.prototype</span>
 
         </li>
@@ -93,37 +87,6 @@
         <li>
 
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">karma-coverage.</span>source_cache_store.prototype</span>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.karma-coverage.coverage_map">module karma-coverage.coverage_map</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.karma-coverage.coverage_map.add">
-            function <span class="apidocSignatureSpan">karma-coverage.coverage_map.</span>add
-            <span class="apidocSignatureSpan">(coverageObj)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.karma-coverage.coverage_map.get">
-            function <span class="apidocSignatureSpan">karma-coverage.coverage_map.</span>get
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.karma-coverage.coverage_map.reset">
-            function <span class="apidocSignatureSpan">karma-coverage.coverage_map.</span>reset
-            <span class="apidocSignatureSpan">()</span>
-            </a>
 
         </li>
 
@@ -292,90 +255,6 @@
 
 
 
-
-
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.karma-coverage.coverage_map" id="apidoc.module.karma-coverage.coverage_map">module karma-coverage.coverage_map</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.karma-coverage.coverage_map.add" id="apidoc.element.karma-coverage.coverage_map.add">
-        function <span class="apidocSignatureSpan">karma-coverage.coverage_map.</span>add
-        <span class="apidocSignatureSpan">(coverageObj)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function add(coverageObj) {
-  coverageMap[coverageObj.path] = coverageObj
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-  coverageObjRegex.lastIndex = 0
-
-  var coverageObjMatch = coverageObjRegex.exec(instrumentedCode)
-
-  if (coverageObjMatch !== null) {
-    var coverageObj = JSON.parse(coverageObjMatch[0])
-
-    coverageMap.<span class="apidocCodeKeywordSpan">add</span>(coverageObj)
-  }
-}
-
-// RequireJS expects JavaScript files to end with `.js`
-if (useJSExtensionForCoffeeScript &amp;&amp; instrumenterLiteral === 'ibrik') {
-  file.path = file.path.replace(/\.coffee$/, '.js')
-}
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.karma-coverage.coverage_map.get" id="apidoc.element.karma-coverage.coverage_map.get">
-        function <span class="apidocSignatureSpan">karma-coverage.coverage_map.</span>get
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function get() {
-  return coverageMap
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-  if (coverageReporter) {
-instrumenterOverrides = coverageReporter.instrumenter
-instrumenters = extend({istanbul: istanbul}, coverageReporter.instrumenters)
-includeAllSources = coverageReporter.includeAllSources === true
-useJSExtensionForCoffeeScript = coverageReporter.useJSExtensionForCoffeeScript === true
-  }
-
-  var sourceCache = globalSourceCache.<span class="apidocCodeKeywordSpan">get</span>(basePath)
-
-  var instrumentersOptions = _.reduce(instrumenters, function getInstumenterOptions (memo, instrument, name) {
-memo[name] = {}
-
-if (coverageReporter &amp;&amp; coverageReporter.instrumenterOptions) {
-  memo[name] = coverageReporter.instrumenterOptions[name]
-}
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.karma-coverage.coverage_map.reset" id="apidoc.element.karma-coverage.coverage_map.reset">
-        function <span class="apidocSignatureSpan">karma-coverage.coverage_map.</span>reset
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function reset() {
-  coverageMap = {}
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
 
 
 </div>
